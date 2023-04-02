@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+}
+/* Navbar start */
+nav {
+  flex: 1;
+  text-align: right;
+  padding: 20px;
+}
+.search input {
+  float: left;
+  width: 300px;
+  height: 30px;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.5s;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+/* Navbar End */
+/* Main Content Start */
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+  padding: 20px;
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 100px 0;
+}
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.col-2 a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  background-color: lightblue;
+  color: #fff;
+  padding: 10px 25px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: background 0.5s;
+  text-decoration: none;
+}
+.btn:hover {
+  background: blue;
+}
+/* Main Content End */
+/* Portolio Start  */
+.portolio h1 {
+  padding-bottom: 20px;
+}
+.portolio .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.col-3 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.col-3 img {
+  vertical-align: baseline;
+  width: 100%;
+}
+/* Portolio End */
+/* Team Start */
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row1 .box {
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid lightblue;
+  border-radius: 15px 15px 0 0;
+  margin: 10px;
+}
+.row1 .box img {
+  border-radius: 15px 15px 0 0;
+  transition: transform 0.3s;
+}
+.row1 .box img:hover {
+  transform: translateY(-20px);
+}
+.row1 .box .content {
+  font-weight: bold;
+  padding: 15px;
+}
+.content h1 {
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+/* Team End */
+
+/* Service Start */
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row2 .box {
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid lightblue;
+  border-radius: 15px 15px 0 0;
+  margin: 20px;
+}
+.row2 .box img {
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+.row2 .box img:hover {
+  transform: translateY(-20px);
+}
+.row2 .box .content {
+  font-weight: bold;
+  padding: 15px;
+}
+.row2 .content h1 {
+  padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.row3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row3 .box {
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid lightblue;
+  border-radius: 15px 15px 0 0;
+  margin: 20px;
+}
+.row3 .box img {
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+.row3 .box img:hover {
+  transform: translateY(-20px);
+}
+.row3 .box .content {
+  font-weight: bold;
+  padding: 15px;
+}
+.row3 .content h1 {
+  padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* Service End */
+/* Contact Start */
+.contact {
+  background-image: url(/cloud-sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact table {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.contact table,
+td {
+  padding: 10px;
+}
+.contact input {
+  width: 300px;
+  height: 25px;
+}
